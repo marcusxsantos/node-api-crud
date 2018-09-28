@@ -8,14 +8,10 @@ const schema = new Schema({
         type: mongoose.Schema.Types.ObjectId,
         ref: 'Manufacturer'
     },
-    model: {
-        type: mongoose.Schema.Types.ObjectId,
-        ref: 'Model'
-    },
-    modelyear: {
-        type: int,
+    name: {
+        type: string,
         required: true
     }
 });
 
-module.exports = mongoose.model('Vehicle', schema);
+module.exports = mongoose.model('Model', schema);

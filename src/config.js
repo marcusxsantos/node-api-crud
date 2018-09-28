@@ -1,0 +1,1 @@
+const connectionstring = "mongodb://car_classified_user:car2018@ds046037.mlab.com:46037/car_classified_db";
