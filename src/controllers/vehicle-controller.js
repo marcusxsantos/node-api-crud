@@ -8,7 +8,8 @@ exports.post = async(req, res, next) => {
             manufacturer: req.body.manufacturer,
             model: req.body.model,
             modelyear: req.body.modelyear
-        })
+        });
+        res.status(200).send
     } catch (e) {
         
     }
